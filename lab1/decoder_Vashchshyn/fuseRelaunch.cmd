@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/xsalinx/projects/decoder_Vashchshyn/My2to7_isim_beh.exe" -prj "D:/xsalinx/projects/decoder_Vashchshyn/My2to7_beh.prj" "work.My2to7" "work.glbl" 

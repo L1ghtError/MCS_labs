@@ -1,0 +1,22 @@
+Running: D:\xsalinx\xxxx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/xsalinx/projects/decoder_Vashchshyn/My2to7_isim_beh.exe -prj D:/xsalinx/projects/decoder_Vashchshyn/My2to7_beh.prj work.My2to7 work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/xsalinx/projects/decoder_Vashchshyn/My2to7.vf" into library work
+Analyzing Verilog file "D:/xsalinx/xxxx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160372 KB
+Fuse CPU Usage: 156 ms
+Compiling module AND2
+Compiling module AND2B1
+Compiling module AND2B2
+Compiling module My2to7
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable D:/xsalinx/projects/decoder_Vashchshyn/My2to7_isim_beh.exe
+Fuse Memory Usage: 167084 KB
+Fuse CPU Usage: 187 ms
