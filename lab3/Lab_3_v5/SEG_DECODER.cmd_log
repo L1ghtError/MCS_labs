@@ -1,0 +1,14 @@
+vhdtdtfi -lib work SEG_DECODER.vhd -prj Lab_3_Example -o SEG_DECODER.spl -module SEG_DECODER -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a SEG_DECODER.spl C:/Users/User/Documents/Lab_3/SEG_DECODER.sym 
+vhdtdtfi -lib work SEG_DECODER.vhd -prj Lab_3_Example -o SEG_DECODER.spl -module SEG_DECODER -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a SEG_DECODER.spl C:/Users/User/Documents/Lab_3/SEG_DECODER.sym 
+vhdtdtfi -lib work SEG_DECODER.vhd -prj Lab_3_Example -o SEG_DECODER.spl -module SEG_DECODER -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a SEG_DECODER.spl C:/Users/User/Documents/Lab_3/SEG_DECODER.sym 
+vhdtdtfi -lib work SEG_DECODER.vhd -prj Lab_3_Example -o SEG_DECODER.spl -module SEG_DECODER -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a SEG_DECODER.spl C:/Users/User/Documents/Lab_3/SEG_DECODER.sym 
+vhdtdtfi -lib work SEG_DECODER.vhd -prj Lab_3_Example -o SEG_DECODER.spl -module SEG_DECODER -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a SEG_DECODER.spl C:/Users/User/Documents/Lab_3/SEG_DECODER.sym 
+vhdtdtfi -lib work SEG_DECODER.vhd -prj Lab_3_Example -o SEG_DECODER.spl -module SEG_DECODER -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a SEG_DECODER.spl C:/Users/User/Documents/Lab_3/SEG_DECODER.sym 
+vhdtdtfi -lib work SEG_DECODER.vhd -prj Lab_3_Example -o SEG_DECODER.spl -module SEG_DECODER -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a SEG_DECODER.spl C:/Users/User/Documents/Lab_3/SEG_DECODER.sym 

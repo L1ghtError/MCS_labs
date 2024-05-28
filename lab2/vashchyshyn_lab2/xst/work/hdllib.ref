@@ -1,0 +1,8 @@
+AR out_logic_intf out_logic_arch D:/xsalinx/projects/vashchyshyn_lab2/OutputLogic.vhd sub00/vhpl01 1716359543
+MO LightController_MUSER_TopLevel NULL TopLevel.vf vlg5D/_light_controller___m_u_s_e_r___top_level.bin 1716359542
+EN transition_logic_intf NULL D:/xsalinx/projects/vashchyshyn_lab2/TransitionLogic.vhd sub00/vhpl02 1716359544
+MO LightController NULL LightController.vf vlg30/_light_controller.bin 1716359542
+MO TopLevel NULL TopLevel.vf vlg23/_top_level.bin 1716359542
+MO CC16CE_HXILINX_TopLevel NULL TopLevel.vf vlg02/_c_c16_c_e___h_x_i_l_i_n_x___top_level.bin 1716359542
+AR transition_logic_intf transition_logic_arch D:/xsalinx/projects/vashchyshyn_lab2/TransitionLogic.vhd sub00/vhpl03 1716359545
+EN out_logic_intf NULL D:/xsalinx/projects/vashchyshyn_lab2/OutputLogic.vhd sub00/vhpl00 1716359542

@@ -1,0 +1,130 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : TopLevel.vf
+// /___/   /\     Timestamp : 05/22/2024 09:25:19
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3a -verilog D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.vf -w D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.sch
+//Design Name: TopLevel
+//Device: spartan3a
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+ 
+module CC16CE_HXILINX_TopLevel(CEO, Q, TC, C, CE, CLR);
+ 
+   parameter TERMINAL_COUNT = 16'b1111_1111_1111_1111;
+   
+   output             CEO;
+   output [15:0]      Q;
+   output             TC;
+
+   input 	      C;
+   input 	      CE;
+   input 	      CLR;
+   
+   reg    [15:0]      Q;
+   
+   always @(posedge C or posedge CLR)
+     begin
+        if (CLR)
+          Q <= 16'b0000_0000_0000_0000;
+        else if (CE)
+          Q <= Q + 1;
+     end
+   
+   assign CEO = TC & CE;
+   assign TC = CLR ? 1'b0 : (Q == TERMINAL_COUNT);
+   
+endmodule
+`timescale 1ns / 1ps
+
+module LightController_MUSER_TopLevel(CLK, 
+                                      MODE, 
+                                      RESET, 
+                                      TEST, 
+                                      OUT_BUS);
+
+    input CLK;
+    input MODE;
+    input RESET;
+    input TEST;
+   output [7:0] OUT_BUS;
+   
+   wire [2:0] CUR_STATE_BUS;
+   wire [2:0] NEXT_STATE_BUS;
+   
+   FDC #( .INIT(1'b0) ) XLXI_6 (.C(CLK), 
+               .CLR(RESET), 
+               .D(NEXT_STATE_BUS[1]), 
+               .Q(CUR_STATE_BUS[1]));
+   FDC #( .INIT(1'b0) ) XLXI_7 (.C(CLK), 
+               .CLR(RESET), 
+               .D(NEXT_STATE_BUS[0]), 
+               .Q(CUR_STATE_BUS[0]));
+   FDC #( .INIT(1'b0) ) XLXI_8 (.C(CLK), 
+               .CLR(RESET), 
+               .D(NEXT_STATE_BUS[2]), 
+               .Q(CUR_STATE_BUS[2]));
+   out_logic_intf  XLXI_9 (.IN_BUS(CUR_STATE_BUS[2:0]), 
+                          .TEST(TEST), 
+                          .OUT_BUS(OUT_BUS[7:0]));
+   transition_logic_intf  XLXI_10 (.CUR_STATE(CUR_STATE_BUS[2:0]), 
+                                  .MODE(MODE), 
+                                  .NEXT_STATE(NEXT_STATE_BUS[2:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module TopLevel(CLOCK, 
+                MODE, 
+                RESET, 
+                TEST, 
+                OUTPUT);
+
+    input CLOCK;
+    input MODE;
+    input RESET;
+    input TEST;
+   output [7:0] OUTPUT;
+   
+   wire [15:0] CNT_BUS;
+   wire XLXN_30;
+   wire XLXN_41;
+   wire XLXN_42;
+   wire XLXN_53;
+   
+   assign XLXN_41 = 1;
+   (* HU_SET = "XLXI_4_0" *) 
+   CC16CE_HXILINX_TopLevel  XLXI_4 (.C(CLOCK), 
+                                   .CE(XLXN_41), 
+                                   .CLR(XLXN_30), 
+                                   .CEO(), 
+                                   .Q(), 
+                                   .TC(XLXN_42));
+   (* HU_SET = "XLXI_5_1" *) 
+   CC16CE_HXILINX_TopLevel  XLXI_5 (.C(XLXN_42), 
+                                   .CE(XLXN_41), 
+                                   .CLR(XLXN_30), 
+                                   .CEO(), 
+                                   .Q(CNT_BUS[15:0]), 
+                                   .TC());
+   FD #( .INIT(1'b0) ) XLXI_12 (.C(CLOCK), 
+               .D(XLXN_53), 
+               .Q(XLXN_30));
+   LightController_MUSER_TopLevel  XLXI_15 (.CLK(CNT_BUS[6]), 
+                                           .MODE(MODE), 
+                                           .RESET(XLXN_30), 
+                                           .TEST(TEST), 
+                                           .OUT_BUS(OUTPUT[7:0]));
+   INV  XLXI_17 (.I(RESET), 
+                .O(XLXN_53));
+endmodule

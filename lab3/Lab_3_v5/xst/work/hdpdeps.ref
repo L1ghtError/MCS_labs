@@ -1,0 +1,118 @@
+V3 107
+FL C:/Users/User/Documents/Lab_3/ACC.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3/ALU.vhd 2024/05/02.01:57:11 P.20131013
+FL C:/Users/User/Documents/Lab_3/CPU.vhd 2024/05/02.02:03:47 P.20131013
+FL C:/Users/User/Documents/Lab_3/FullAdder.vhd 2024/04/29.14:53:03 P.20131013
+FL C:/Users/User/Documents/Lab_3/FullAdder8.vhd 2024/04/29.15:20:19 P.20131013
+FL C:/Users/User/Documents/Lab_3/MUX.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3/RAM.vhd 2024/04/29.20:15:03 P.20131013
+FL C:/Users/User/Documents/Lab_3/SEG_DECODER.vhd 2024/05/02.01:42:07 P.20131013
+FL C:/Users/User/Documents/Lab_3/TopLevel.vhf 2024/05/02.01:50:35 P.20131013
+FL C:/Users/User/Documents/Lab_3_v15/ACC.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v15/ALU.vhd 2024/05/12.03:53:05 P.20131013
+FL C:/Users/User/Documents/Lab_3_v15/CPU.vhd 2024/05/14.09:10:32 P.20131013
+FL C:/Users/User/Documents/Lab_3_v15/MUX.vhd 2024/05/14.09:08:49 P.20131013
+FL C:/Users/User/Documents/Lab_3_v15/RAM.vhd 2024/05/08.07:01:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v15/SEG_DECODER.vhd 2024/05/02.01:42:07 P.20131013
+FL C:/Users/User/Documents/Lab_3_v15/TopLevel.vhf 2024/05/12.01:52:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v21/ACC.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v21/ALU.vhd 2024/05/12.03:53:05 P.20131013
+FL C:/Users/User/Documents/Lab_3_v21/CPU.vhd 2024/05/14.08:48:25 P.20131013
+FL C:/Users/User/Documents/Lab_3_v21/MUX.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v21/RAM.vhd 2024/05/08.07:01:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v21/SEG_DECODER.vhd 2024/05/02.01:42:07 P.20131013
+FL C:/Users/User/Documents/Lab_3_v21/TopLevel.vhf 2024/05/12.01:52:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v3/ACC.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v3/ALU.vhd 2024/05/12.02:34:10 P.20131013
+FL C:/Users/User/Documents/Lab_3_v3/CPU.vhd 2024/05/12.02:36:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v3/MUX.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v3/RAM.vhd 2024/05/08.07:01:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v3/SEG_DECODER.vhd 2024/05/02.01:42:07 P.20131013
+FL C:/Users/User/Documents/Lab_3_v3/TopLevel.vhf 2024/05/12.01:52:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v4/ACC.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v4/ALU.vhd 2024/05/07.13:27:09 P.20131013
+FL C:/Users/User/Documents/Lab_3_v4/CPU.vhd 2024/05/08.07:05:22 P.20131013
+FL C:/Users/User/Documents/Lab_3_v4/FullAdder.vhd 2024/04/29.14:53:03 P.20131013
+EN work/FullAdder 1715177123 FL C:/Users/User/Documents/Lab_3_v4/FullAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder/Behavioral 1715177124 \
+      FL C:/Users/User/Documents/Lab_3_v4/FullAdder.vhd EN work/FullAdder 1715177123
+FL C:/Users/User/Documents/Lab_3_v4/FullAdder8.vhd 2024/04/29.15:20:19 P.20131013
+EN work/FullAdder8 1715177125 FL C:/Users/User/Documents/Lab_3_v4/FullAdder8.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder8/Behavioral 1715177126 \
+      FL C:/Users/User/Documents/Lab_3_v4/FullAdder8.vhd EN work/FullAdder8 1715177125 \
+      CP FullAdder
+FL C:/Users/User/Documents/Lab_3_v4/MUX.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v4/RAM.vhd 2024/05/08.07:01:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v4/SEG_DECODER.vhd 2024/05/02.01:42:07 P.20131013
+FL C:/Users/User/Documents/Lab_3_v4/TopLevel.vhf 2024/05/08.07:03:18 P.20131013
+FL C:/Users/User/Documents/Lab_3_v5/ACC.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v5/ALU.vhd 2024/05/14.09:18:21 P.20131013
+FL C:/Users/User/Documents/Lab_3_v5/CPU.vhd 2024/05/14.13:14:18 P.20131013
+FL C:/Users/User/Documents/Lab_3_v5/MUX.vhd 2024/05/14.09:08:49 P.20131013
+FL C:/Users/User/Documents/Lab_3_v5/RAM.vhd 2024/05/08.07:01:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v5/SEG_DECODER.vhd 2024/05/02.01:42:07 P.20131013
+FL C:/Users/User/Documents/Lab_3_v5/TopLevel.vhf 2024/05/14.13:24:36 P.20131013
+FL C:/Users/User/Documents/Lab_3_v6/ACC.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v6/ALU.vhd 2024/05/12.02:05:01 P.20131013
+FL C:/Users/User/Documents/Lab_3_v6/CPU.vhd 2024/05/12.02:07:43 P.20131013
+FL C:/Users/User/Documents/Lab_3_v6/MUX.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v6/RAM.vhd 2024/05/08.07:01:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v6/SEG_DECODER.vhd 2024/05/02.01:42:07 P.20131013
+FL C:/Users/User/Documents/Lab_3_v6/TopLevel.vhf 2024/05/12.01:52:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v7/ACC.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v7/ALU.vhd 2024/05/14.09:18:21 P.20131013
+FL C:/Users/User/Documents/Lab_3_v7/CPU.vhd 2024/05/14.09:25:09 P.20131013
+FL C:/Users/User/Documents/Lab_3_v7/MUX.vhd 2024/05/14.09:08:49 P.20131013
+FL C:/Users/User/Documents/Lab_3_v7/RAM.vhd 2024/05/08.07:01:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v7/SEG_DECODER.vhd 2024/05/02.01:42:07 P.20131013
+FL C:/Users/User/Documents/Lab_3_v7/TopLevel.vhf 2024/05/12.01:52:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v8/ACC.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v8/ALU.vhd 2024/05/12.02:20:49 P.20131013
+FL C:/Users/User/Documents/Lab_3_v8/CPU.vhd 2024/05/12.02:29:59 P.20131013
+FL C:/Users/User/Documents/Lab_3_v8/MUX.vhd 2024/05/02.00:48:39 P.20131013
+FL C:/Users/User/Documents/Lab_3_v8/RAM.vhd 2024/05/08.07:01:46 P.20131013
+FL C:/Users/User/Documents/Lab_3_v8/SEG_DECODER.vhd 2024/05/02.01:42:07 P.20131013
+FL C:/Users/User/Documents/Lab_3_v8/TopLevel.vhf 2024/05/12.01:52:46 P.20131013
+FL D:/xsalinx/Lab_3_v5/ACC.vhd 2024/05/02.10:48:40 P.20131013
+EN work/ACC 1716878920 FL D:/xsalinx/Lab_3_v5/ACC.vhd PB ieee/std_logic_1164 1381692176
+AR work/ACC/ACC_arch 1716878921 \
+      FL D:/xsalinx/Lab_3_v5/ACC.vhd EN work/ACC 1716878920
+FL D:/xsalinx/Lab_3_v5/ALU.vhd 2024/05/28.09:45:06 P.20131013
+EN work/ALU 1716878918 FL D:/xsalinx/Lab_3_v5/ALU.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU/ALU_Behavioral 1716878919 \
+      FL D:/xsalinx/Lab_3_v5/ALU.vhd EN work/ALU 1716878918
+FL D:/xsalinx/Lab_3_v5/CPU.vhd 2024/05/14.23:14:20 P.20131013
+EN work/CPU 1716878914 FL D:/xsalinx/Lab_3_v5/CPU.vhd PB ieee/std_logic_1164 1381692176
+AR work/CPU/CPU_arch 1716878915 \
+      FL D:/xsalinx/Lab_3_v5/CPU.vhd EN work/CPU 1716878914
+FL D:/xsalinx/Lab_3_v5/MUX.vhd 2024/05/14.19:08:50 P.20131013
+EN work/MUX 1716878916 FL D:/xsalinx/Lab_3_v5/MUX.vhd PB ieee/std_logic_1164 1381692176
+AR work/MUX/Behavioral 1716878917 \
+      FL D:/xsalinx/Lab_3_v5/MUX.vhd EN work/MUX 1716878916
+FL D:/xsalinx/Lab_3_v5/RAM.vhd 2024/05/08.17:01:48 P.20131013
+EN work/RAM 1716878922 FL D:/xsalinx/Lab_3_v5/RAM.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RAM/RAM_arch 1716878923 \
+      FL D:/xsalinx/Lab_3_v5/RAM.vhd EN work/RAM 1716878922
+FL D:/xsalinx/Lab_3_v5/SEG_DECODER.vhd 2024/05/02.11:42:08 P.20131013
+EN work/SEG_DECODER 1716878924 FL D:/xsalinx/Lab_3_v5/SEG_DECODER.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SEG_DECODER/Behavioral 1716878925 \
+      FL D:/xsalinx/Lab_3_v5/SEG_DECODER.vhd EN work/SEG_DECODER 1716878924
+FL D:/xsalinx/Lab_3_v5/TopLevel.vhf 2024/05/14.23:24:38 P.20131013
+EN work/CB16CE_HXILINX_TopLevel 1716878926 FL D:/xsalinx/Lab_3_v5/TopLevel.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CB16CE_HXILINX_TopLevel/Behavioral 1716878927 \
+      FL D:/xsalinx/Lab_3_v5/TopLevel.vhf EN work/CB16CE_HXILINX_TopLevel 1716878926
+EN work/TopLevel 1716878928 \
+      FL D:/xsalinx/Lab_3_v5/TopLevel.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TopLevel/BEHAVIORAL 1716878929 \
+      FL D:/xsalinx/Lab_3_v5/TopLevel.vhf EN work/TopLevel 1716878928 \
+      CP CB16CE_HXILINX_TopLevel CP CPU CP MUX CP ALU CP ACC CP RAM CP SEG_DECODER \
+      CP FDCP CP AND2B1 CP GND CP INV

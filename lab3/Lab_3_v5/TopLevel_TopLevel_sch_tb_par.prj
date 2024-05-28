@@ -1,0 +1,2 @@
+vhdl work "netgen/par/TopLevel_timesim.vhd"
+vhdl work "TopLevelTest.vhd"

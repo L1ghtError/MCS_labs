@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\xsalinx\projects\vashchyshyn_lab2\TopLevel.ncd
+OUTFILE=D:\xsalinx\projects\vashchyshyn_lab2\TopLevel.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=D:\xsalinx\projects\vashchyshyn_lab2
+LICENSE=WebPack
+USER_INFO=211628586_0_0_017

@@ -1,0 +1,15 @@
+V3 6
+FL D:/xsalinx/projects/vashchyshyn_lab2/OutputLogic.vhd 2024/03/10.15:43:28 P.20131013
+EN work/out_logic_intf 1716359542 \
+      FL D:/xsalinx/projects/vashchyshyn_lab2/OutputLogic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/out_logic_intf/out_logic_arch 1716359543 \
+      FL D:/xsalinx/projects/vashchyshyn_lab2/OutputLogic.vhd \
+      EN work/out_logic_intf 1716359542
+FL D:/xsalinx/projects/vashchyshyn_lab2/TransitionLogic.vhd 2024/03/10.15:09:42 P.20131013
+EN work/transition_logic_intf 1716359544 \
+      FL D:/xsalinx/projects/vashchyshyn_lab2/TransitionLogic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/transition_logic_intf/transition_logic_arch 1716359545 \
+      FL D:/xsalinx/projects/vashchyshyn_lab2/TransitionLogic.vhd \
+      EN work/transition_logic_intf 1716359544

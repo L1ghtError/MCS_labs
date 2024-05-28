@@ -1,0 +1,8 @@
+vhdl work "SEG_DECODER.vhd"
+vhdl work "RAM.vhd"
+vhdl work "MUX.vhd"
+vhdl work "CPU.vhd"
+vhdl work "ALU.vhd"
+vhdl work "ACC.vhd"
+vhdl work "TopLevel.vhf"
+vhdl work "TopLevelTest.vhd"

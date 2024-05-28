@@ -1,0 +1,6 @@
+vhdl work "TransitionLogic.vhd"
+vhdl work "OutputLogic.vhd"
+verilog work "LightController.vf"
+verilog work "TopLevel.vf"
+vhdl work "toplvltb.vhd"
+verilog work "D:/xsalinx/xxxx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

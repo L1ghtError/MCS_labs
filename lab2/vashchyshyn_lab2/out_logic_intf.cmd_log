@@ -1,0 +1,9 @@
+vhdtdtfi -lib work OutputLogic.vhd -prj vashchyshyn_lab2 -o out_logic_intf.spl -module out_logic_intf -template D:/xsalinx/xxxx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w out_logic_intf.spl D:/xsalinx/projects/vashchyshyn_lab2/out_logic_intf.sym 
+vhdtdtfi -prj vashchyshyn_lab2 -o D:/xsalinx/projects/vashchyshyn_lab2/out_logic_intf.tfi -module out_logic_intf -template D:/xsalinx/xxxx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work OutputLogic.vhd 
+vhdtdtfi -lib work OutputLogic.vhd -prj vashchyshyn_lab2 -o out_logic_intf.spl -module out_logic_intf -template D:/xsalinx/xxxx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w out_logic_intf.spl D:/xsalinx/projects/vashchyshyn_lab2/out_logic_intf.sym 
+vhdtdtfi -lib work OutputLogic.vhd -prj vashchyshyn_lab2 -o out_logic_intf.spl -module out_logic_intf -template D:/xsalinx/xxxx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w out_logic_intf.spl D:/xsalinx/projects/vashchyshyn_lab2/out_logic_intf.sym 
+vhdtdtfi -lib work OutputLogic.vhd -prj vashchyshyn_lab2 -o out_logic_intf.spl -module out_logic_intf -template D:/xsalinx/xxxx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w out_logic_intf.spl D:/xsalinx/projects/vashchyshyn_lab2/out_logic_intf.sym 

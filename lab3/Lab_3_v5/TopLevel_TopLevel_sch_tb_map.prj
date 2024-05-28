@@ -1,0 +1,2 @@
+vhdl work "netgen/map/TopLevel_map.vhd"
+vhdl work "TopLevelTest.vhd"

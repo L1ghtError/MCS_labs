@@ -1,0 +1,532 @@
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/map -ofmt vhdl -sim TopLevel_map.ncd TopLevel_map.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v4/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v4/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v6/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v6/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v6/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v6/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v6/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v6/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v8/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v8/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v3/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v21/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v21/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v21/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v21/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v15/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v15/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v15/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v15/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v15/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v15/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v15/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v15/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v15/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v15/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v15/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v15/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v15/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v15/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v15/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v15/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v7/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v7/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v7/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v7/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v7/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v7/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v7/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v7/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v7/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v7/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v5/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Lab_3_v5/TopLevel.xst" -ofn "C:/Users/User/Documents/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "D:/xsalinx/Lab_3_v5/TopLevel.xst" -ofn "D:/xsalinx/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "D:/xsalinx/Lab_3_v5/TopLevel.xst" -ofn "D:/xsalinx/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+netgen -intstyle ise -s 5  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim TopLevel.ncd TopLevel_timesim.vhd 
+xst -intstyle ise -ifn "D:/xsalinx/Lab_3_v5/TopLevel.xst" -ofn "D:/xsalinx/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/Lab_3_v5/TopLevel.xst" -ofn "D:/xsalinx/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/Lab_3_v5/TopLevel.xst" -ofn "D:/xsalinx/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/Lab_3_v5/TopLevel.xst" -ofn "D:/xsalinx/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/Lab_3_v5/TopLevel.xst" -ofn "D:/xsalinx/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/Lab_3_v5/TopLevel.xst" -ofn "D:/xsalinx/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/Lab_3_v5/TopLevel.xst" -ofn "D:/xsalinx/Lab_3_v5/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 

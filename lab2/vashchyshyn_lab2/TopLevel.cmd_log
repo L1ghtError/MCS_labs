@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.xst" -ofn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MyConstraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf MyConstraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.xst" -ofn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MyConstraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf MyConstraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.xst" -ofn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MyConstraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf MyConstraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.xst" -ofn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MyConstraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf MyConstraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.xst" -ofn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MyConstraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf MyConstraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.xst" -ofn "D:/xsalinx/projects/vashchyshyn_lab2/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MyConstraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf MyConstraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 

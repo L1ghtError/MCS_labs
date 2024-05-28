@@ -1,0 +1,32 @@
+Command line:
+   TopLevel_TopLevel_sch_tb_isim_par.exe
+     -simmode  gui
+     -sdfmax  /UUT/=netgen/par/TopLevel_timesim.sdf
+     -sdfroot  /UUT
+     -simrunnum  0
+     -socket  52601
+
+Tue May 28 09:28:54 2024
+
+
+ Elaboration Time: 0.140625 sec
+
+ Current Memory Usage: 5183.15 Meg
+
+ Total Signals          : 7539
+ Total Nets             : 4577
+ Total Signal Drivers   : 4332
+ Total Blocks           : 2046
+ Total Primitive Blocks : 1071
+ Total Processes        : 4329
+ Total Traceable Variables  : 10369
+ Total Scalar Nets and Variables : 40295
+Total Line Count : 13697
+Total Line Count : 13697
+
+ Total Simulation Time: 48.8281 sec
+
+ Current Memory Usage: 4711.29 Meg
+
+Tue May 28 09:51:46 2024
+

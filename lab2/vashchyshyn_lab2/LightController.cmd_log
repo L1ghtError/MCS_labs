@@ -1,0 +1,14 @@
+sch2sym -intstyle ise -family spartan3a -w -refsym LightController D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch D:/xsalinx/projects/vashchyshyn_lab2/LightController.sym 
+sch2sym -intstyle ise -family spartan3a -w -refsym LightController D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch D:/xsalinx/projects/vashchyshyn_lab2/LightController.sym 
+sch2hdl -intstyle ise -family spartan3a -verilog LightController_drc.vf -w D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch 
+sch2sym -intstyle ise -family spartan3a -w -refsym LightController D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch D:/xsalinx/projects/vashchyshyn_lab2/LightController.sym 
+sch2sym -intstyle ise -family spartan3a -w -refsym LightController D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch D:/xsalinx/projects/vashchyshyn_lab2/LightController.sym 
+sch2hdl -intstyle ise -family spartan3a -verilog LightController_drc.vf -w D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch 
+sch2hdl -intstyle ise -family spartan3a -verilog LightController_drc.vf -w D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch 
+sch2hdl -intstyle ise -family spartan3a -verilog LightController_drc.vf -w D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch 
+sch2hdl -intstyle ise -family spartan3a -verilog LightController_drc.vf -w D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch 
+sch2sym -intstyle ise -family spartan3a -w -refsym LightController D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch D:/xsalinx/projects/vashchyshyn_lab2/LightController.sym 
+sch2hdl -intstyle ise -family spartan3a -verilog LightController_drc.vf -w D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch 
+sch2sym -intstyle ise -family spartan3a -w -refsym LightController D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch D:/xsalinx/projects/vashchyshyn_lab2/LightController.sym 
+sch2sym -intstyle ise -family spartan3a -w -refsym LightController D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch D:/xsalinx/projects/vashchyshyn_lab2/LightController.sym 
+sch2hdl -intstyle ise -family spartan3a -verilog LightController_drc.vf -w D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch 

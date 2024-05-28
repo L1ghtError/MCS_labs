@@ -1,0 +1,2 @@
+vhdtdtfi -lib work FullAdder.vhd -lib work FullAdder8.vhd -prj Lab_3_Example -o FullAdder8.spl -module FullAdder8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a FullAdder8.spl C:/Users/User/Documents/Lab_3/FullAdder8.sym 

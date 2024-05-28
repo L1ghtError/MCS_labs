@@ -1,0 +1,8 @@
+[Inputs]
+=A[7:0]=
+=B[7:0]=
+=OP[1:0]=
+[Outputs]
+OVERFLOW
+=OUTPUT[7:0]=
+[BiDir]

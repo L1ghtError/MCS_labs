@@ -1,0 +1,7 @@
+vhdl work "D:\xsalinx\Lab_3_v5\SEG_DECODER.vhd"
+vhdl work "D:\xsalinx\Lab_3_v5\RAM.vhd"
+vhdl work "D:\xsalinx\Lab_3_v5\MUX.vhd"
+vhdl work "D:\xsalinx\Lab_3_v5\CPU.vhd"
+vhdl work "D:\xsalinx\Lab_3_v5\ALU.vhd"
+vhdl work "D:\xsalinx\Lab_3_v5\ACC.vhd"
+vhdl work "D:\xsalinx\Lab_3_v5\TopLevel.vhf"

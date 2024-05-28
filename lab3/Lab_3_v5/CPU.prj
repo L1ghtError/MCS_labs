@@ -1,0 +1,4 @@
+vhdl work "calc.vhd"
+vhdl work "TopLevel.vhf"
+vhdl work "CPU.vhd"
+vhdl work "ACC.vhd"

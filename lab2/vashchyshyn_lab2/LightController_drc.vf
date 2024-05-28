@@ -1,0 +1,56 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : LightController_drc.vf
+// /___/   /\     Timestamp : 05/14/2024 11:54:52
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\xsalinx\xxxx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3a -verilog LightController_drc.vf -w D:/xsalinx/projects/vashchyshyn_lab2/LightController.sch
+//Design Name: LightController
+//Device: spartan3a
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module LightController(CLK, 
+                       MODE, 
+                       RESET, 
+                       TEST, 
+                       OUT_BUS);
+
+    input CLK;
+    input MODE;
+    input RESET;
+    input TEST;
+   output [7:0] OUT_BUS;
+   
+   wire [2:0] CUR_STATE_BUS;
+   wire [2:0] NEXT_STATE_BUS;
+   
+   FDC #( .INIT(1'b0) ) XLXI_6 (.C(CLK), 
+               .CLR(RESET), 
+               .D(NEXT_STATE_BUS[1]), 
+               .Q(CUR_STATE_BUS[1]));
+   FDC #( .INIT(1'b0) ) XLXI_7 (.C(CLK), 
+               .CLR(RESET), 
+               .D(NEXT_STATE_BUS[0]), 
+               .Q(CUR_STATE_BUS[0]));
+   FDC #( .INIT(1'b0) ) XLXI_8 (.C(CLK), 
+               .CLR(RESET), 
+               .D(NEXT_STATE_BUS[2]), 
+               .Q(CUR_STATE_BUS[2]));
+   out_logic_intf  XLXI_9 (.IN_BUS(CUR_STATE_BUS[2:0]), 
+                          .TEST(TEST), 
+                          .OUT_BUS(OUT_BUS[7:0]));
+   transition_logic_intf  XLXI_10 (.CUR_STATE(CUR_STATE_BUS[2:0]), 
+                                  .MODE(MODE), 
+                                  .NEXT_STATE(NEXT_STATE_BUS[2:0]));
+endmodule

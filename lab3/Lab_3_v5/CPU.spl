@@ -1,0 +1,15 @@
+[Inputs]
+ENTER_OP1
+ENTER_OP2
+CALCULATE
+RESET
+CLOCK
+[Outputs]
+RAM_WR
+ACC_WR
+ACC_RST
+=RAM_ADDR[1:0]=
+=CONST[7:0]=
+=IN_SEL[1:0]=
+=OP[1:0]=
+[BiDir]

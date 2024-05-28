@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/xsalinx/Lab_3_v5/TopLevel_TopLevel_sch_tb_isim_par.exe" -prj "D:/xsalinx/Lab_3_v5/TopLevel_TopLevel_sch_tb_par.prj" "work.TopLevel_TopLevel_sch_tb" 

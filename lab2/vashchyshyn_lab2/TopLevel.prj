@@ -1,0 +1,4 @@
+vhdl work "TransitionLogic.vhd"
+vhdl work "OutputLogic.vhd"
+verilog work "LightController.vf"
+verilog work "TopLevel.vf"
